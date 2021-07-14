@@ -1,0 +1,357 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Work+Sans:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Work+Sans:wght@200;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Fjalla+One&family=Work+Sans:wght@200;400&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    margin:0;
+    padding:0;
+    background:url(../img/bg2.jpg) center/cover no-repeat;
+    background-position:top;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+header {
+    padding: 30px 8%;
+    margin-bottom: 10px;
+}
+
+header nav a{
+    text-decoration: none;
+    display: inline;
+    position: inherit;
+    color:lightgray;
+    font-size: 20px;
+    text-decoration: underline lightblue ;
+    border-bottom:thin;
+    text-transform: uppercase;
+    
+}
+
+header nav a:hover{
+color:blanchedalmond;
+font-size: 30px;
+font-weight: bold; /* negrito no texto */
+transition-duration: 1.0s;
+transition-timing-function: ease-in;
+transition-property: all;
+background: #000;
+
+
+}
+
+/*
+li{
+    list-style: none;
+    font-family: 'Santio Black';
+    text-decoration:underline yellow;
+    font-size: 15px;
+    color:blue;
+    
+}*/
+
+/*---header---*/
+
+
+header h1 a {
+    display: inline-block;
+    position:absolute;
+    color:#fff;
+    margin-top:15px; 
+    margin-left: 60px;
+    font-size: 30px;
+    margin-right: 100px;
+    border-bottom:thin;
+    
+    
+}
+
+header h1 a:hover {
+color:blanchedalmond;
+font-size: 35px;
+font-weight: bold; /* negrito no texto */
+transition-duration: 1.0s;
+transition-timing-function: ease-in;
+transition-property: all;
+box-shadow:teal;
+background: #000;
+}
+
+
+
+
+header nav ul{
+    text-align: right;
+    padding-top:1%;
+    margin-right: 80px;
+}
+header nav ul li{
+    display: inline-block;
+    padding-right: 1%;
+    list-style: none;
+    font-family: 'Santio Black';
+    font-size: 15px;
+    margin-left: 80px;
+}
+
+/*---progress bar---*/
+
+.progress{
+    height: 15px;
+    background-color:blanchedalmond;
+    position: relative;
+}
+
+.progress .progress-bar{
+   position: absolute;
+   height: 100%;
+   background-color: #add555;
+   animation: progress-animation 6s infinite;
+}
+
+
+@keyframes progress-animation{
+    0% { width: 0%; }
+    
+    100% { width: 100%}
+    
+}
+
+
+
+.barra{
+    height: 15px;
+    background-color:blanchedalmond;
+    position: relative;
+}
+
+.barra .progress-bar{
+   position: absolute;
+   height: 100%;
+   background-color: #add555;
+   animation: progress-animation 6s infinite;
+}
+
+
+@keyframes progress-animation{
+    0% { width: 0%; }
+    
+    100% { width: 100%}
+    
+}
+
+
+
+/*---section one---*/
+
+#one {
+    padding: 30px 8%;
+    margin-top:10%;
+    width:40%;
+    position: relative;
+    margin-left: 490px;
+    border-radius:10px;
+    border:1px groove;
+    padding-top: 50px;
+    padding-right: 90px;
+    margin-bottom: 20%;
+    font-family:'Work Sans';
+}
+
+
+
+#one .one h1 {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;  
+    font-size: 40px;
+    color:#fff;
+}
+
+#one .one h2 {
+    font-size: 30px;
+    color:#fff;
+}
+
+#one .one .macbook {
+    background:#fff;
+    color:#000;
+}
+
+
+#one .one img {
+    width:100%;
+    border-radius: 10px;
+}
+
+/*---section two---*/
+
+#two .two {
+    padding: 30px 8%;
+    margin-top:10%;
+    width:40%;
+    position: relative;
+    margin-left: 490px;
+    border-radius:10px;
+    border:1px groove;
+    padding-top: 50px;
+    padding-right: 90px;
+    margin-bottom: 20%;
+    font-family:'Work Sans';
+    
+}
+
+#two .two h2 {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;  
+    font-size: 40px;
+    color:#fff;
+}
+
+
+#two .two img {
+    width: 100%;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+#two .two .fa-terminal {
+    color:#fff
+}
+
+
+/*--- section three---*/
+
+
+
+#three .three {
+width: 80%;
+padding: 10%;
+background: url(../img/bg3.jpg) center/cover no-repeat;
+    
+}
+
+#three .three h1 {
+   
+    margin-top: 600px;
+    margin-bottom: 10px;  
+    font-size: 75px;
+    color:#fff;
+
+/*---section four---*/
+
+}
+
+#four .four {
+  
+width: 80%;
+padding: 10%;
+background: url(../img/bg5.jpg) center/cover no-repeat;
+background-attachment: fixed;
+
+}
+
+#four .four .Git  {
+    width: 50%;
+    border: 1px solid #fff;
+    border-radius:5px;
+    position: relative;
+    margin-left: 25%;
+}
+
+#four .four .gittwo {
+
+    width: 40%;
+    display: inline-block;
+    margin-left: 6%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+
+#four .four img {
+    
+    width: 40%;
+    display: inline-block;
+    margin-left: 6%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+#four .four .Git:hover{
+    
+    box-shadow: 0 0 5px rgba(232,0,0, 1.0);
+}
+
+#four .four img:hover{
+    
+    box-shadow: 0 0 5px rgba(0,0,0, 0.5 );
+}
+
+
+#four .four h1 {
+    font-size: 75px;
+    text-align: center;
+    color:#fff;
+    margin-bottom: 50px;
+}
+
+#four .four h2 {
+    font-size: 50px;
+    text-align: center;
+    color:#fff;
+    margin-bottom: 50px;
+    margin-left: 100px;
+
+}
+
+#four .four h3 {
+    font-size: 30px;
+    text-align: center;
+    color:#fff;
+    margin-bottom: 50px;
+    margin-left: 100px;
+
+}
+
+#four .four table {
+    
+  
+    color:#fff;
+    margin-bottom: 16px;
+    margin-top: 0;
+    font-size: 25px;
+    line-height: 1.5em;
+
+}
+
+table {
+    border-collapse: collapse;
+    display: inline-block;
+    margin-left: 350px;
+}
+
+table, th, td {
+    border: 1px solid #fff;
+}
+
+#four .four .final {
+  
+    width: 25%;
+    position: relative;
+    margin-left: 600px;
+}
+
